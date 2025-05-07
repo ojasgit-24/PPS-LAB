@@ -1,0 +1,24 @@
+avg=0.0
+s1=float(input("subject 1: "))
+s2=float(input("subject 2: "))
+s3=float(input("subject 3: "))
+s4=float(input("subject 4: "))
+s5=float(input("subject 5: "))
+a=float((s1+s2+s3+s4+s5)/5.00)
+avg=round(a,2)
+if(avg>=90.0):
+	print("Average Marks: %.2f"%(avg))
+	print("Grade: A")
+elif(avg<=89 and avg>=80):
+	print("Average Marks: %.2f"%(avg))
+	print("Grade: B")
+elif(avg>=70 and avg<=79):
+	print("Average Marks: %.2f"%(avg))
+	print("Grade: C")
+elif(avg>=60 and avg<=69):
+	print("Average Marks: %.2f"%(avg))
+	print("Grade: D")
+elif(avg<60):
+	print("Average Marks: %.2f"%(avg))
+	print("Grade: F")
+	
